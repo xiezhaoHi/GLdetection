@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="LogRecord">
+      <UniqueIdentifier>{2349cc55-b236-4051-8340-e616113d1553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ReadConfig">
+      <UniqueIdentifier>{770aef01-ff3a-47f3-996a-834b16169b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{e719a419-03e1-4d43-a029-14737c48dae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sqlite3">
+      <UniqueIdentifier>{190114cb-a2bc-43db-9d39-7929713a7b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="skin">
+      <UniqueIdentifier>{70518844-2a88-4cb1-9161-5415ce299c18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="change_skin">
+      <UniqueIdentifier>{ed7d5ba7-c1a2-404d-b76c-743b348cf2b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLdetection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GLdetectionDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="logrecord\LogRecord.h">
+      <Filter>LogRecord</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadWriteConfig\ReadWriteConfig.h">
+      <Filter>ReadConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="mscomm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="public\publicFun.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="EasySize.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="skin\DUIButton.h">
+      <Filter>skin</Filter>
+    </ClInclude>
+    <ClInclude Include="skin\SkinManager.h">
+      <Filter>skin</Filter>
+    </ClInclude>
+    <ClInclude Include="skin\SkinWndHelper.h">
+      <Filter>skin</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2015\VC\atlmfc\include\atlcore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2015\VC\atlmfc\include\atlsimpstr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2015\VC\atlmfc\include\cstringt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Change_skin.h">
+      <Filter>change_skin</Filter>
+    </ClInclude>
+    <ClInclude Include="crc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GLdetection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GLdetectionDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="logrecord\LogRecord.cpp">
+      <Filter>LogRecord</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadWriteConfig\ReadWriteConfig.cpp">
+      <Filter>ReadConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="mscomm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="skin\SkinWndHelper.cpp">
+      <Filter>skin</Filter>
+    </ClCompile>
+    <ClCompile Include="skin\SkinManager.cpp">
+      <Filter>skin</Filter>
+    </ClCompile>
+    <ClCompile Include="skin\DUIButton.cpp">
+      <Filter>skin</Filter>
+    </ClCompile>
+    <ClCompile Include="Change_skin.cpp">
+      <Filter>change_skin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GLdetection.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GLdetection.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\GLdetection.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\logo.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\timg.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
